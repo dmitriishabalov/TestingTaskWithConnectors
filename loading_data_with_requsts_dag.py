@@ -15,7 +15,7 @@ default_args = {
 }
 
 with DAG(
-    dag_id='loading_data_with_pandas',
+    dag_id='loading_data_with_requests',
     default_args=default_args,
     schedule_interval='0 */12 * * *'
 ) as dag:
